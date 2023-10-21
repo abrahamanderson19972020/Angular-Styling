@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnails {
+  width: 300px;
+}
+div {
+  width: 300px;
+}

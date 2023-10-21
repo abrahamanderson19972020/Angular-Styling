@@ -1,0 +1,78 @@
+.navigation {
+  background: #2a9fbc;
+  border-radius: 0.5em;
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  padding: 0 1em;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+}
+button {
+  margin: 1%;
+  font-size: 2rem;
+  height: 50px;
+  cursor: pointer;
+}
+.subscribe {
+  background-color: rgb(152, 44, 44);
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  transition: opacity 0.15s;
+}
+.subscribe:hover {
+  opacity: 0.8;
+}
+.subscribe:active {
+  opacity: 0.5;
+}
+
+.join {
+  color: #2a9fbc;
+  border: #2a9fbc solid 1px;
+  transition: opacity 0.15s;
+}
+
+.join:hover {
+  background-color: #2a9fbc;
+  color: #fff;
+  border: #fff solid 1px;
+}
+
+.join:active {
+  opacity: 0.5;
+}
+
+.twitter {
+  background-color: #2a9fbc;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: box-shadow 0.15s;
+}
+
+.twitter:hover {
+  box-shadow: 5px 5px 10px rgba($color: #000000, $alpha: 0.3);
+}
+.twitter:active {
+  opacity: 0.5;
+}
