@@ -1,11 +1,40 @@
 .container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+.header-input {
+  display: block;
+}
+.thumbnails {
+  width: 100%;
+}
+.image-card {
+  margin: 10px 20px;
+  width: 100%;
+}
+.video-info {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+.video-title {
+  font-weight: bold;
+  line-height: 1.5rem;
 }
 
-.thumbnails {
-  width: 300px;
+.profile-details {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  padding-left: 5%;
 }
-div {
-  width: 300px;
+.profile-image {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+.video-author,
+.video-description {
+  color: rgb(96, 96, 96);
+  font-size: 12px;
 }
